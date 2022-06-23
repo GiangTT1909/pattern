@@ -1,0 +1,641 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &37250747604509718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7985682653074426587}
+  - component: {fileID: 224264361526300254}
+  - component: {fileID: -1042001471239425661}
+  - component: {fileID: 45508812803050579}
+  - component: {fileID: -9060768429516066390}
+  - component: {fileID: -1442878396139776093}
+  - component: {fileID: -5382733516980684450}
+  - component: {fileID: -628543256582168007}
+  - component: {fileID: 4195452410607340632}
+  - component: {fileID: -1036626017953707709}
+  - component: {fileID: -6851029245999549692}
+  - component: {fileID: 8082640248347261075}
+  - component: {fileID: 6858038355239084166}
+  - component: {fileID: -7813874142782610500}
+  - component: {fileID: -7059638062563408237}
+  - component: {fileID: 31483515867269894}
+  - component: {fileID: 8793451171704134023}
+  - component: {fileID: 4607696915661353543}
+  - component: {fileID: 4307580748218948179}
+  - component: {fileID: -4243220133641757787}
+  - component: {fileID: -7809584844102453514}
+  - component: {fileID: -6056969279591229463}
+  - component: {fileID: -6090639799504768241}
+  - component: {fileID: -659686299669510991}
+  - component: {fileID: 1742014590227852995}
+  - component: {fileID: 2533181771811381099}
+  - component: {fileID: 6134438341516800626}
+  - component: {fileID: -5311470081697992939}
+  - component: {fileID: 7566732407397485262}
+  - component: {fileID: -2551652598116145135}
+  - component: {fileID: -5092906095877534585}
+  - component: {fileID: -8336270916938547252}
+  - component: {fileID: 1739942560071974103}
+  - component: {fileID: -3795825918789533401}
+  - component: {fileID: -3748872290146757940}
+  - component: {fileID: 1192079762680108966}
+  - component: {fileID: 7924168795649928507}
+  - component: {fileID: 4510001748562111666}
+  - component: {fileID: -4678532302322054829}
+  m_Layer: 0
+  m_Name: stickman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7985682653074426587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &224264361526300254
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6d3bea15f3b40e7459eccae0eb09bf3f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.94, y: 5.05}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &-1042001471239425661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &45508812803050579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-9060768429516066390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-1442878396139776093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-5382733516980684450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-628543256582168007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &4195452410607340632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-1036626017953707709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-6851029245999549692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &8082640248347261075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &6858038355239084166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-7813874142782610500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-7059638062563408237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &31483515867269894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &8793451171704134023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &4607696915661353543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &4307580748218948179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-4243220133641757787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-7809584844102453514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-6056969279591229463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-6090639799504768241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-659686299669510991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &1742014590227852995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &2533181771811381099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &6134438341516800626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-5311470081697992939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &7566732407397485262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-2551652598116145135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-5092906095877534585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-8336270916938547252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &1739942560071974103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-3795825918789533401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-3748872290146757940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &1192079762680108966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &7924168795649928507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &4510001748562111666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
+--- !u!114 &-4678532302322054829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37250747604509718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88be6b1feca8544ab3f8b0d6a35685f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwordPrefab: {fileID: 0}
+  BowPrefab: {fileID: 0}
